@@ -9,7 +9,7 @@ import android.widget.ImageView;
  */
 
 public class ComicManager {
-    private HandlerThread hThread;
+    private HandlerThread downloadHandlerThread;
     private DownloadHandler downloadHandler; // Funcionará asociado al Worker Thread (HandlerThread)
     private Handler imageHandler;            // Funcionará asociado al UI Thread
     private boolean timerActive;             // Controlamos si el timer está activo o no
