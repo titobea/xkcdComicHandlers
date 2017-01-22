@@ -11,12 +11,14 @@ public class ComicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Inicializamos el Comic
-        // ComicManager manager = new ComicManager();
+        ComicManager manager = new ComicManager(this,5);
     }
 
     // Aquí faltará añadir Listeners para:
     // un botón de activar/desactivar Timer
     // un botón para salir de la App
+
+
 
 
 
